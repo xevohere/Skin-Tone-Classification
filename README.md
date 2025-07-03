@@ -8,9 +8,9 @@ Traditional methods using color space transformations fail under diverse lightin
 
 ## 🧠 Models Used
 
-- **ResNet50** (Highest accuracy: **89.1%**)
-- **InceptionV3** (Accuracy: 87.5%)
-- **MobileNetV2** (Lightweight, good for mobile and real-time use)
+- **ResNet50** (Highest accuracy: **87.35%**)
+- **InceptionV3** (Accuracy: 79.85%)
+- **MobileNetV2** (Lightweight, Accuracy: 83.19%)
 
 ## 📊 Dataset & Preprocessing
 
@@ -19,11 +19,20 @@ Traditional methods using color space transformations fail under diverse lightin
 - Train:Validation:Test split — **80:10:10**
 - Applied **data augmentation** to improve robustness.
 
+## 📈 Figures and Screenshots
+![image](https://github.com/user-attachments/assets/a13bde56-6afa-4167-b449-5dfe17cadb39)
+
+![image](https://github.com/user-attachments/assets/67fccb5b-6e02-4239-8fd4-06e1ad9ad7c1)
+
+
 ## ⚙️ Training Details
 
 - **Loss Function**: Categorical Crossentropy  
 - **Evaluation**: Accuracy, Precision, Recall, F1-score  
-- **Validation**: k-Fold Cross-Validation  
+- **Validation**: k-Fold Cross-Validation
+
+![image](https://github.com/user-attachments/assets/03c53b3b-6acf-45c8-b4f2-48dd0fa0b6fc)
+
 
 ## 🙌 Acknowledgements
 
